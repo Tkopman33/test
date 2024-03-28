@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_stripe__payment
+    description: 'Customers Table'
+    columns:
+      - name: payment_id
+        description: ''
+      - name: order_id
+      - name: payment_method
+      - name: payment_status
+        description: ''
+      - name: payment_amount
+        description: ''
+      - name: payment_created_date
+        description: ''
+      - name: batched_at
+        description: ''

@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: stg_jaffle_shop__customers
+    description: 'Customers Table'
+    columns:
+      - name: customer_id
+        description: '{{ doc("id")}}'
+      - name: first_name
+        description: 'Customer first name'
+      - name: last_name
+        description: 'Customer last name'

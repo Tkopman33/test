@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    description: ''
+    database: raw_db
+    schema: jaffle_shop
+    tables:
+      - name: customers
+        description: 'customers model'
+      - name: orders
+        description: 'orders model'
