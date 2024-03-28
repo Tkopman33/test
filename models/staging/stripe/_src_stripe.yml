@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: stripe
+    description: ''
+    database: raw_db
+    schema: stripe
+    tables:
+      - name: payment
+        description: 'payment table'

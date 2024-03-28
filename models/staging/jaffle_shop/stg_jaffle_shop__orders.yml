@@ -1,0 +1,19 @@
+version: 2
+
+models: 
+  - name: stg_jaffle_shop__orders
+    description: "Orders table"
+    columns: 
+      - name: order_id
+        description: '{{ doc("id")}}'
+        tests: 
+          - unique
+          - not_null
+      - name: customer_id
+        description: "Id of the customer"
+      - name: order_date
+        description: "Date order was placed"
+      - name: _order_status
+        description: "Order statuses. This could be returned pending delivered"
+      - name: etl_loaded_at
+        description: "Time order was loaded into data warehouse"
